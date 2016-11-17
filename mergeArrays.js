@@ -22,6 +22,7 @@ function mergeArrays(arr1, arr2){
     output.push(arr1[j]);
     j++;
   }
+  return output;
 }
 
 // Big O = O(n)
